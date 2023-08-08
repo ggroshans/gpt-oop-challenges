@@ -1,1 +1,4 @@
-# gpt-OOP-projects
+# GPT generated OOP Challenges
+**Prompt:** *On a scale of 1 to 10, could you provide a level 'X' Object-Oriented Programming challenge in C# that effectively guides me in employing multiple classes?*
+
+Coming from a non-traditional background, I have not had to opportunity to learn and use OOP structural patterns. Previously, I've developed in mainly frontend frameworks using TypeScript and my experience with backend included Python's Django & Flask or Node.js with Express.js. From my experience, these backends did not use OOP and therefore, I was really excited when I got the opportunity to dive into the C# / .NET world. I quickly learned I needed to ramp up on being comfortable with OOP; however, common coding challenge websites such as CodeWars, LeetCode, etc. do not have many challenges where OOP is required to solve the challenge. That's when I started prompting GPT for OOP challenges on a difficulty scale of 1-10. 
