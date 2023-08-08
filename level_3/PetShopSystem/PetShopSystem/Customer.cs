@@ -33,13 +33,13 @@ namespace Challenges
         public string GetDetails()
         {
             var Sb = new StringBuilder();
-            Sb.AppendLine($"Name: {Name}");
-            Sb.AppendLine($"Balance: {Balance}");
-            Sb.AppendLine("Adopted Pets: ");
+            Sb.Append($"Customer: {Name}\n");
+            Sb.Append($"Balance: ${Balance}\n");
+            Sb.Append("Adopted Pets:\n");
 
             foreach (var pet in Pets)
             {
-                Sb.AppendLine($"{pet.Name} ({pet.Type}) - {pet.Price} ");
+                Sb.Append($"{pet.Name} ({pet.Type}) - ${pet.Price}\n");
             }
             return Sb.ToString();
         }

@@ -28,7 +28,7 @@ namespace PetShopSystem.UnitTests
             shop.AdoptPet(john, dog);
 
             string details = john.GetDetails();
-            Assert.Equal("Customer: John\nBalance: 100\nAdopted Pets:\nBuddy (Dog) - $200\n", details);
+            Assert.Equal("Customer: John\nBalance: $100\nAdopted Pets:\nBuddy (Dog) - $200\n", details);
         }
 
         [Fact]
@@ -59,7 +59,7 @@ namespace PetShopSystem.UnitTests
             shop.AdoptPet(john, cat);
 
             string details = john.GetDetails();
-            Assert.Equal("Customer: John\nBalance: 0\nAdopted Pets:\nBuddy (Dog) - $200\nWhiskers (Cat) - $100\n", details);
+            Assert.Equal("Customer: John\nBalance: $0\nAdopted Pets:\nBuddy (Dog) - $200\nWhiskers (Cat) - $100\n", details);
         }
 
         // Additional test method for the scenario when the customer tries to adopt without enough balance

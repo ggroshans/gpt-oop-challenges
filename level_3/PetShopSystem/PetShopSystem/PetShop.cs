@@ -33,12 +33,12 @@ namespace Challenges
 
         public string ListPets()
         {
-            if (Pets.Count == 0) return "No  pets available in the shop.";
+            if (Pets.Count == 0) return "No pets available in the shop.";
             var SB = new StringBuilder();
 
             foreach (var pet in Pets)
             {
-                SB.AppendLine($"{pet.Name} ({pet.Type}) - ${pet.Price}");
+                SB.Append($"{pet.Name} ({pet.Type}) - ${pet.Price}\n");
             }
             return SB.ToString();
 
