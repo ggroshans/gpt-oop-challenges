@@ -28,3 +28,6 @@ AdoptPet(Customer customer, Pet pet) - handles the adoption of a pet by a custom
 ## Requirements
 The AdoptPet method in PetShop should check if the pet is available in the shop and if the customer has enough balance to adopt the pet.
 If the adoption is successful, the pet should be removed from the pet shop and added to the customer's list of adopted pets, and the customer's balance should be reduced by the pet's price.
+
+
+**This challenge provides practice with defining classes, properties, methods, and working with objects and their relationships. It's a basic simulation of a real-world scenario, helping to solidify OOP concepts.**
