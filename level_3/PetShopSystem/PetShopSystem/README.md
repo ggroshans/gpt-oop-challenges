@@ -1,23 +1,23 @@
-### Challenge: Pet Shop System
+# Challenge: Pet Shop System
 
 ## Overview
 Create a basic Pet Shop system where customers can adopt pets. The system should consist of at least three classes: Pet, Customer, and PetShop.
 
 ## Details
 
-# Pet Class: Represents a pet that the shop can sell.
+### Pet Class: Represents a pet that the shop can sell.
 
 Properties: Name, Type (e.g., Dog, Cat), Price
 Method: GetDetails() - returns a string description of the pet.
 
-# Customer Class: Represents a customer who can adopt a pet.
+### Customer Class: Represents a customer who can adopt a pet.
 
 Properties: Name, Balance (money they have to spend)
 Methods:
 Adopt(Pet pet) - adopts a pet if the customer has enough balance.
 GetDetails() - returns a string description of the customer, including adopted pets.
 
-# PetShop Class: Represents the pet shop.
+### PetShop Class: Represents the pet shop.
 
 Properties: List of Pets available for adoption.
 Methods:
