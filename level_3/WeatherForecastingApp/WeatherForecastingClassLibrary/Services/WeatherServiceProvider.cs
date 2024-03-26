@@ -9,9 +9,16 @@ namespace WeatherForecastingClassLibrary.Services
 {
     public class WeatherServiceProvider : IWeatherService 
     { 
-        public string GetWeatherData()
+        
+        private readonly HttpClient _httpClient;
+
+        public WeatherServiceProvider(HttpClient httpClient) 
         {
-            throw new NotImplementedException();
+            _httpClient = httpClient;  
+        }
+        public Task<string> GetWeatherData()
+        {
+
         }
     }
 }

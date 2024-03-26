@@ -9,6 +9,6 @@ namespace WeatherForecastingClassLibrary.Interfaces
     public interface IWeatherService
 
     {
-        public string GetWeatherData();
+        public Task<string> GetWeatherData();
     }
 }
